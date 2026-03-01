@@ -1,0 +1,237 @@
+{
+  "users": [
+    {"username": "chef_maria", "password": "password123"},
+    {"username": "home_cook_bob", "password": "password123"}
+  ],
+  "recipes": [
+    {
+      "title": "Classic Margherita Pizza",
+      "description": "A simple Neapolitan-style pizza with fresh mozzarella, tomatoes, and basil.",
+      "cuisine": "Italian",
+      "prep_time_minutes": 90,
+      "servings": 4,
+      "owner": "chef_maria",
+      "ingredients": [
+        {"name": "bread flour", "quantity": 500, "unit": "g"},
+        {"name": "active dry yeast", "quantity": 7, "unit": "g"},
+        {"name": "olive oil", "quantity": 2, "unit": "tbsp"},
+        {"name": "salt", "quantity": 1, "unit": "tsp"},
+        {"name": "crushed tomatoes", "quantity": 400, "unit": "g"},
+        {"name": "fresh mozzarella", "quantity": 250, "unit": "g"},
+        {"name": "fresh basil", "quantity": 10, "unit": "leaves"}
+      ]
+    },
+    {
+      "title": "Chicken Tikka Masala",
+      "description": "Tender chicken pieces in a creamy spiced tomato sauce, served with rice.",
+      "cuisine": "Indian",
+      "prep_time_minutes": 60,
+      "servings": 4,
+      "owner": "chef_maria",
+      "ingredients": [
+        {"name": "chicken breast", "quantity": 600, "unit": "g"},
+        {"name": "yogurt", "quantity": 200, "unit": "ml"},
+        {"name": "garam masala", "quantity": 2, "unit": "tsp"},
+        {"name": "turmeric", "quantity": 1, "unit": "tsp"},
+        {"name": "crushed tomatoes", "quantity": 400, "unit": "g"},
+        {"name": "heavy cream", "quantity": 200, "unit": "ml"},
+        {"name": "onion", "quantity": 2, "unit": "pieces"},
+        {"name": "garlic", "quantity": 4, "unit": "cloves"},
+        {"name": "ginger", "quantity": 1, "unit": "tbsp"},
+        {"name": "salt", "quantity": 1, "unit": "tsp"}
+      ]
+    },
+    {
+      "title": "Beef Tacos",
+      "description": "Seasoned ground beef in crispy corn tortillas with fresh toppings.",
+      "cuisine": "Mexican",
+      "prep_time_minutes": 30,
+      "servings": 4,
+      "owner": "home_cook_bob",
+      "ingredients": [
+        {"name": "ground beef", "quantity": 500, "unit": "g"},
+        {"name": "corn tortillas", "quantity": 12, "unit": "pieces"},
+        {"name": "onion", "quantity": 1, "unit": "pieces"},
+        {"name": "garlic", "quantity": 3, "unit": "cloves"},
+        {"name": "cumin", "quantity": 1, "unit": "tsp"},
+        {"name": "chili powder", "quantity": 2, "unit": "tsp"},
+        {"name": "salt", "quantity": 0.5, "unit": "tsp"},
+        {"name": "lettuce", "quantity": 1, "unit": "cup"},
+        {"name": "cheddar cheese", "quantity": 100, "unit": "g"},
+        {"name": "tomato", "quantity": 2, "unit": "pieces"}
+      ]
+    },
+    {
+      "title": "Japanese Miso Soup",
+      "description": "Traditional Japanese soup with dashi broth, miso paste, tofu, and seaweed.",
+      "cuisine": "Japanese",
+      "prep_time_minutes": 20,
+      "servings": 4,
+      "owner": "chef_maria",
+      "ingredients": [
+        {"name": "dashi stock", "quantity": 800, "unit": "ml"},
+        {"name": "white miso paste", "quantity": 3, "unit": "tbsp"},
+        {"name": "silken tofu", "quantity": 200, "unit": "g"},
+        {"name": "wakame seaweed", "quantity": 5, "unit": "g"},
+        {"name": "green onion", "quantity": 2, "unit": "pieces"}
+      ]
+    },
+    {
+      "title": "Greek Salad",
+      "description": "Fresh Mediterranean salad with tomatoes, cucumbers, olives, and feta cheese.",
+      "cuisine": "Greek",
+      "prep_time_minutes": 15,
+      "servings": 2,
+      "owner": "home_cook_bob",
+      "ingredients": [
+        {"name": "tomato", "quantity": 3, "unit": "pieces"},
+        {"name": "cucumber", "quantity": 1, "unit": "pieces"},
+        {"name": "red onion", "quantity": 0.5, "unit": "pieces"},
+        {"name": "feta cheese", "quantity": 150, "unit": "g"},
+        {"name": "kalamata olives", "quantity": 100, "unit": "g"},
+        {"name": "olive oil", "quantity": 3, "unit": "tbsp"},
+        {"name": "red wine vinegar", "quantity": 1, "unit": "tbsp"},
+        {"name": "oregano", "quantity": 1, "unit": "tsp"},
+        {"name": "salt", "quantity": 0.5, "unit": "tsp"}
+      ]
+    },
+    {
+      "title": "Pad Thai",
+      "description": "Stir-fried rice noodles with shrimp, peanuts, and tangy tamarind sauce.",
+      "cuisine": "Thai",
+      "prep_time_minutes": 35,
+      "servings": 2,
+      "owner": "chef_maria",
+      "ingredients": [
+        {"name": "rice noodles", "quantity": 200, "unit": "g"},
+        {"name": "shrimp", "quantity": 200, "unit": "g"},
+        {"name": "egg", "quantity": 2, "unit": "pieces"},
+        {"name": "bean sprouts", "quantity": 100, "unit": "g"},
+        {"name": "peanuts", "quantity": 50, "unit": "g"},
+        {"name": "tamarind paste", "quantity": 2, "unit": "tbsp"},
+        {"name": "fish sauce", "quantity": 2, "unit": "tbsp"},
+        {"name": "sugar", "quantity": 1, "unit": "tbsp"},
+        {"name": "garlic", "quantity": 3, "unit": "cloves"},
+        {"name": "lime", "quantity": 1, "unit": "pieces"},
+        {"name": "green onion", "quantity": 2, "unit": "pieces"}
+      ]
+    },
+    {
+      "title": "French Onion Soup",
+      "description": "Caramelized onion soup topped with crusty bread and melted Gruyère cheese.",
+      "cuisine": "French",
+      "prep_time_minutes": 75,
+      "servings": 4,
+      "owner": "home_cook_bob",
+      "ingredients": [
+        {"name": "onion", "quantity": 6, "unit": "pieces"},
+        {"name": "butter", "quantity": 50, "unit": "g"},
+        {"name": "beef broth", "quantity": 1000, "unit": "ml"},
+        {"name": "dry white wine", "quantity": 150, "unit": "ml"},
+        {"name": "baguette", "quantity": 1, "unit": "pieces"},
+        {"name": "gruyère cheese", "quantity": 200, "unit": "g"},
+        {"name": "thyme", "quantity": 1, "unit": "tsp"},
+        {"name": "salt", "quantity": 1, "unit": "tsp"}
+      ]
+    },
+    {
+      "title": "Spaghetti Carbonara",
+      "description": "Classic Roman pasta dish with eggs, pecorino cheese, guanciale, and black pepper.",
+      "cuisine": "Italian",
+      "prep_time_minutes": 25,
+      "servings": 4,
+      "owner": "chef_maria",
+      "ingredients": [
+        {"name": "spaghetti", "quantity": 400, "unit": "g"},
+        {"name": "guanciale", "quantity": 200, "unit": "g"},
+        {"name": "egg", "quantity": 4, "unit": "pieces"},
+        {"name": "pecorino romano", "quantity": 100, "unit": "g"},
+        {"name": "black pepper", "quantity": 2, "unit": "tsp"},
+        {"name": "salt", "quantity": 1, "unit": "tsp"}
+      ]
+    },
+    {
+      "title": "Moroccan Chickpea Stew",
+      "description": "Hearty stew with chickpeas, sweet potato, and warm North African spices.",
+      "cuisine": "Moroccan",
+      "prep_time_minutes": 45,
+      "servings": 6,
+      "owner": "home_cook_bob",
+      "ingredients": [
+        {"name": "chickpeas", "quantity": 400, "unit": "g"},
+        {"name": "sweet potato", "quantity": 2, "unit": "pieces"},
+        {"name": "crushed tomatoes", "quantity": 400, "unit": "g"},
+        {"name": "onion", "quantity": 1, "unit": "pieces"},
+        {"name": "garlic", "quantity": 3, "unit": "cloves"},
+        {"name": "cumin", "quantity": 2, "unit": "tsp"},
+        {"name": "cinnamon", "quantity": 0.5, "unit": "tsp"},
+        {"name": "vegetable broth", "quantity": 500, "unit": "ml"},
+        {"name": "olive oil", "quantity": 2, "unit": "tbsp"},
+        {"name": "salt", "quantity": 1, "unit": "tsp"},
+        {"name": "fresh cilantro", "quantity": 0.25, "unit": "cup"}
+      ]
+    },
+    {
+      "title": "Korean Bibimbap",
+      "description": "Mixed rice bowl with assorted vegetables, beef, and a spicy gochujang sauce.",
+      "cuisine": "Korean",
+      "prep_time_minutes": 50,
+      "servings": 2,
+      "owner": "chef_maria",
+      "ingredients": [
+        {"name": "short-grain rice", "quantity": 300, "unit": "g"},
+        {"name": "beef sirloin", "quantity": 200, "unit": "g"},
+        {"name": "spinach", "quantity": 100, "unit": "g"},
+        {"name": "carrot", "quantity": 1, "unit": "pieces"},
+        {"name": "zucchini", "quantity": 1, "unit": "pieces"},
+        {"name": "bean sprouts", "quantity": 100, "unit": "g"},
+        {"name": "egg", "quantity": 2, "unit": "pieces"},
+        {"name": "gochujang", "quantity": 2, "unit": "tbsp"},
+        {"name": "sesame oil", "quantity": 1, "unit": "tbsp"},
+        {"name": "soy sauce", "quantity": 2, "unit": "tbsp"},
+        {"name": "garlic", "quantity": 2, "unit": "cloves"}
+      ]
+    },
+    {
+      "title": "Banana Pancakes",
+      "description": "Fluffy American-style pancakes with ripe bananas and maple syrup.",
+      "cuisine": "American",
+      "prep_time_minutes": 20,
+      "servings": 2,
+      "owner": "home_cook_bob",
+      "ingredients": [
+        {"name": "all-purpose flour", "quantity": 200, "unit": "g"},
+        {"name": "banana", "quantity": 2, "unit": "pieces"},
+        {"name": "egg", "quantity": 2, "unit": "pieces"},
+        {"name": "milk", "quantity": 200, "unit": "ml"},
+        {"name": "baking powder", "quantity": 2, "unit": "tsp"},
+        {"name": "sugar", "quantity": 2, "unit": "tbsp"},
+        {"name": "butter", "quantity": 30, "unit": "g"},
+        {"name": "salt", "quantity": 0.25, "unit": "tsp"},
+        {"name": "maple syrup", "quantity": 4, "unit": "tbsp"}
+      ]
+    },
+    {
+      "title": "Vietnamese Pho",
+      "description": "Aromatic beef broth noodle soup with herbs and bean sprouts.",
+      "cuisine": "Vietnamese",
+      "prep_time_minutes": 120,
+      "servings": 4,
+      "owner": "chef_maria",
+      "ingredients": [
+        {"name": "beef bones", "quantity": 1000, "unit": "g"},
+        {"name": "rice noodles", "quantity": 300, "unit": "g"},
+        {"name": "beef sirloin", "quantity": 300, "unit": "g"},
+        {"name": "onion", "quantity": 2, "unit": "pieces"},
+        {"name": "ginger", "quantity": 50, "unit": "g"},
+        {"name": "star anise", "quantity": 3, "unit": "pieces"},
+        {"name": "cinnamon", "quantity": 1, "unit": "pieces"},
+        {"name": "fish sauce", "quantity": 3, "unit": "tbsp"},
+        {"name": "bean sprouts", "quantity": 200, "unit": "g"},
+        {"name": "fresh basil", "quantity": 0.5, "unit": "cup"},
+        {"name": "lime", "quantity": 2, "unit": "pieces"},
+        {"name": "salt", "quantity": 1, "unit": "tsp"}
+      ]
+    }
+  ]
+}
